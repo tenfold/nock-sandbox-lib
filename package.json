@@ -1,0 +1,30 @@
+{
+  "name": "nock-sandbox",
+  "version": "1.0.0",
+  "description": "Clean up nock on demand, for example after each test. Helper function for mocha is provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "nock",
+    "sandbox",
+    "cleanup",
+    "restore",
+    "afterEach",
+    "remove",
+    "mocks",
+    "http"
+  ],
+  "author": "Damian Kaczmarek <rush@tenfold.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mocha-finalize-each": "^1.0.0",
+    "nock": "^9.0.14"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1"
+  }
+}
